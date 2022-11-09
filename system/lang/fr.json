@@ -3,12 +3,12 @@
     "Ironsworn": "Ironsworn",
     "Starforged": "Starforged",
     "CreateActor": "Créer un acteur",
-    "YourWorldTruths": "Votre Monde: Vérités",
+    "YourWorldTruths": "Votre Monde : Vérités",
     "TruthQuestStarter": "Quête d’introduction :",
     "SaveYourTruths": "Enregistrer vos Vérités",
     "CustomTruth": "Vérité personalisée",
     "Roll": "Lancer les dés",
-    "Chat": "Chat",
+	"Chat": "Chat",
     "CopyTextToClipboard": "Copier le texte dans le presse-papier",
     "SendToChat": "Envoyer le texte des règles dans le chat",
     "Rolling": "Lancement des dés",
@@ -17,15 +17,15 @@
     "Versus": "vs.",
     "CappedAt10": "Le scorce de l'action est limité à 10",
     "Strong_hit": "Coup fort",
-    "Strong_hit_with_a_match": "Coup fort avec une égalité!",
+    "Strong_hit_match": "Coup fort avec une paire !",
     "On_a_strong_hit": "Sur un coup fort",
     "Weak_hit": "Coup faible",
     "On_a_weak_hit": "Sur un coup faible",
     "Miss": "Échec",
-    "Miss_match": "Échec avec une égalité!",
+    "Miss_match": "Échec avec une paire !",
     "On_a_miss": "Sur un échec",
-    "Opportunity": "Opportunité!",
-    "Complication": "Complication!",
+    "Opportunity": "Opportunité !",
+    "Complication": "Complication !",
     "MarkProgress": "Marquer la progression",
     "PROGRESS": {
       "Track": "Jauge de progrès",
@@ -51,7 +51,7 @@
     "Mark": "Marquer",
     "Fulfill": "Réaliser",
     "Clear": "Effacer",
-    "Troublesome": "Pénible",
+    "Troublesome": "Problématique",
     "Dangerous": "Dangereux",
     "Formidable": "Redoutable",
     "Extreme": "Extrême",
@@ -60,13 +60,13 @@
     "OracleTable": {
       "ColumnLabel": {
         "Roll": "Jet de dés",
-        "RollRange": "Porté du jet de dés",
+        "RollRange": "Portée du jet de dés",
         "DiceRollResult": "{dice} résultat du jet",
         "Result": "Résultat"
       }
     },
     "roll +x": "faites un jet +{stat}",
-    "Roll +x": "Faites un jet +{stat}",
+    "Roll +x": "Faites un jet +{stat}",  
     "roll method": {
       "All": "lancez tous les dés de {statList}",
       "Any": {
@@ -90,7 +90,7 @@
     "Heart": "cœur",
     "Iron": "fer",
     "Shadow": "ombre",
-    "Wits": "astuces",
+    "Wits": "astuce",
     "XP": "XP",
     "Asset": "Atout",
     "Assets": "Atouts",
@@ -119,7 +119,7 @@
     "Tormented": "Tourmenté",
     "Permanentlyharmed": "Lésions permanentes",
     "Traumatized": "Traumatisé",
-    "Doomed": "Maudit",
+    "Doomed": "Condamné",
     "Indebted": "Endetté",
     "Battered": "Battu",
     "Vow": "Vœu",
@@ -134,7 +134,7 @@
     "Recover": "Récupérer",
     "Threshold": "Seuil",
     "Legacy": "Héritage",
-    "Scene Challenge": "Défi de la scène",
+    "Scene Challenge": "Défi de la scène",	 
     "Adventure": "Aventures",
     "Relationship": "Relation",
     "Combat": "Combat",
@@ -154,7 +154,7 @@
     "Character": "Personnage",
     "Starship": "Vaisseau spatial",
     "SharedSheet": "Feuille partagée",
-    "DelveSite": "Site de fouilles",
+    "DelveSite": "Site à explorer",
     "Names": "Noms",
     "RollForDetails": "Jet de type de lieu",
     "Names": "Noms",
@@ -163,7 +163,7 @@
     "ResolveChallenge": "Résoudre le défi",
     "ResolveChallengeDisabled": "Choisissez vos deux derniers dés de défi",
     "BurnForUpgrade": "Brûler de l'Élan: <strong>{type}</strong>",
-    "BurnMomentumAndResetTo": "Brûlez {value} Élan et réinitialisé à {resetValue}",
+    "BurnMomentumAndResetTo": "Brûlez {value} d'Élan et réinitialisez à {resetValue}",
     "MomentumBurnt": "Élan brûlé",
     "NegativeMomentumCancel": "l'Élan négatif annule le dé d'action",
     "Reset": "Réinitialiser",
@@ -204,7 +204,7 @@
     "DeleteVow": "Supprimer le Vœu",
     "DeleteProgress": "Supprimer le Progrès",
     "DeleteAsset": "Supprimer l'Atout",
-    "ConfirmDelete": "Êtes-vous sûr? Cette action est irréversible.",
+    "ConfirmDelete": "Êtes-vous sûr ? Cette action est irréversible.",
     "StatBonusTooltip": "Bonus le prochain jet de caractéristique",
     "RequiresLocationType": "Cet oracle nécessite la sélection d'un type de lieu.",
     "RollOracleTable": "Jet d'oracle: <i>{title}</i>",
@@ -241,7 +241,7 @@
     "RotateCW": "Tourner dans le sens des aiguilles d'une montre",
     "RollDialog": {
       "AdvancedRollOptions": "Options avancées",
-      "PresetActionDie": "Dé d'action prédéfinie",
+      "PresetActionDie": "Dé d'Action prédéfinie",
       "PredeterminedOutcome": "Résultat prédéterminé",
       "ExtraChallengeDice": "Dés de défi supplémentaires"
     },
@@ -272,9 +272,9 @@
       "clockAdvancedOneSegment": "horloge avancée à {new}⁄{max}",
       "clockAdvancedTwoSegments": "horloge avancée par {change} segments à {new}⁄{max}",
       "clockAdvancedManySegments": "horloge avancée par {change} segments à {new}⁄{max}",
-      "clockCompletedOneSegment": "horloge avancée à {new}⁄{max}—horloge achevée!",
-      "clockCompletedTwoSegments": "horloge avancée par {change} segments à {new}⁄{max}—clock completed!",
-      "clockCompletedManySegments": "horloge avancée par {change} segments à {new}⁄{max}—clock completed!",
+      "clockCompletedOneSegment": "horloge avancée à {new}⁄{max}—horloge complétée !",
+      "clockCompletedTwoSegments": "horloge avancée par {change} segments à {new}⁄{max}—horloge complétée !",
+      "clockCompletedManySegments": "horloge avancée par {change} segments à {new}⁄{max}—horloge complétée !",
       "clockSet": "horloge réglée sur {new}⁄{max}"
     },
     "Settings": {
@@ -304,7 +304,7 @@
       "ConfigurationDialog": {
         "Label": "Ironsworn/Starforged Boîte de dialogue de configuration",
         "Name": "Boîte de dialogue de configuration",
-        "Hint": "Choisissez entre les éléments d'interface utilisateur Ironsworn et Starforged.."
+        "Hint": "Choisissez entre les éléments d'interface utilisateur Ironsworn et Starforged."
       },
       "SFBeta": {
         "Name": "Montrer le contenu de la bêta de Starforged",
@@ -323,7 +323,7 @@
       "Welcome": "Bienvenue",
       "Save": "Enregistrer",
       "Intro": "Bienvenue dans Ironsworn ! Il y a juste quelques choix à faire avant de commencer."
-    },
+	},
     "MoveContents": {
       "Face Danger": {
         "title": "Faire Face au Danger",
@@ -389,7 +389,7 @@
         "miss": "<p>Sur un <strong>&eacute;chec</strong> la personne refuse, ou elle vous fait une demande qui vous sera tr&egrave;s co&ucirc;teuse. Vous devez en <em>Payer le Prix</em>.</p>"
       },
       "Sojourn": {
-        "title": "Séjournez",
+        "title": "Séjourner",
         "description": "<p>Lorsque&nbsp;<strong>vous passez du temps dans une communaut&eacute; &agrave; rechercher de l&rsquo;aide</strong>, faites un jet +coeur. Si vous partagez un lien avec celle-ci, ajoutez +1.</p>",
         "strong": "<p>Sur un <strong>coup fort</strong>, vos alli&eacute;s et vous peuvent chacun retenir deux options dans les cat&eacute;gories ci-dessous.&nbsp;</p> <h4>&Eacute;liminer un &Eacute;tat</h4> <ul> <li>Soigner : Vous &eacute;liminez le handicap bless&eacute; et gagnez +1 sant&eacute;.</li> <li>Encourager : Vous &eacute;liminez le handicap secou&eacute; et gagnez +1 esprit.</li> <li>&Eacute;quiper : Vous &eacute;liminez le handicap mal pr&eacute;par&eacute; et gagnez +1 provisions.</li> </ul> <h4>R&eacute;cup&eacute;rer</h4> <ul> <li>R&eacute;tablir : Vous gagnez +2 sant&eacute; pour vous-m&ecirc;me et pour n&rsquo;importe lequel de vos compagnons.</li> <li>Fr&eacute;quenter : Vous gagnez +2 esprit.</li> <li>Approvisionner : Vous gagnez +2 provisions.</li> <li>Planifier : Vous gagnez +2 &eacute;lan.</li> </ul> <h4>Venir en Aide</h4> <ul> <li>Accepter une qu&ecirc;te : Visualisez ce dont cette communaut&eacute; a besoin, ou &agrave; quel probl&egrave;me elle est confront&eacute;e (<em>Consultez l&rsquo;Oracle</em> en cas de doute). Si vous choisissez de l&rsquo;aider, <em>Jurez un Voeu</em> de Fer et ajoutez +1.</li> </ul> <p>Sur un <strong>succ&egrave;s</strong>, <strong>vos alli&eacute;s et vous pouvez chacun vous concentrer sur l&rsquo;une de vos actions de r&eacute;cup&eacute;ration</strong> et faire un nouveau jet +coeur. Si vous partagez un lien, ajoutez +1.</p> <p>Sur un <strong>coup fort</strong>, vous gagnez +2 suppl&eacute;mentaires dans la jauge concern&eacute;e.</p> <p>Sur un <strong>coup faible</strong>, vous gagnez +1 suppl&eacute;mentaire. Sur un &eacute;chec, les choses se passent mal et vous perdez tous les b&eacute;n&eacute;fices de cette action.</p>",
         "weak": "<p>Sur un <strong>coup faible</strong>, vos alli&eacute;s et vous peuvent chacun retenir qu'une option dans les cat&eacute;gories ci-dessous. Si vous partagez un lien avec cette communaut&eacute;, alors vous pouvez retenir une option suppl&eacute;mentaire.</p> <p>&nbsp;</p> <h4>&Eacute;liminer un &Eacute;tat</h4> <ul> <li>Soigner : Vous &eacute;liminez le handicap bless&eacute; et gagnez +1 sant&eacute;.</li> <li>Encourager : Vous &eacute;liminez le handicap secou&eacute; et gagnez +1 esprit.</li> <li>&Eacute;quiper : Vous &eacute;liminez le handicap mal pr&eacute;par&eacute; et gagnez +1 provisions.</li> </ul> <h4>R&eacute;cup&eacute;rer</h4> <ul> <li>R&eacute;tablir : Vous gagnez +2 sant&eacute; pour vous-m&ecirc;me et pour n&rsquo;importe lequel de vos compagnons.</li> <li>Fr&eacute;quenter : Vous gagnez +2 esprit.</li> <li>Approvisionner : Vous gagnez +2 provisions.</li> <li>Planifier : Vous gagnez +2 &eacute;lan.</li> </ul> <h4>Venir en Aide</h4> <ul> <li>Accepter une qu&ecirc;te : Visualisez ce dont cette communaut&eacute; a besoin, ou &agrave; quel probl&egrave;me elle est confront&eacute;e (<em>Consultez l&rsquo;Oracle</em> en cas de doute). Si vous choisissez de l&rsquo;aider, <em>Jurez un Voeu</em> de Fer et ajoutez +1.</li> </ul> <p>Sur un <strong>succ&egrave;s</strong>, <strong>vos alli&eacute;s et vous pouvez chacun vous concentrer sur l&rsquo;une de vos actions de r&eacute;cup&eacute;ration</strong> et faire un nouveau jet +coeur. Si vous partagez un lien, ajoutez +1.</p> <p>Sur un <strong>coup fort</strong>, vous gagnez +2 suppl&eacute;mentaires dans la jauge concern&eacute;e.</p> <p>Sur un <strong>coup faible</strong>, vous gagnez +1 suppl&eacute;mentaire. Sur un &eacute;chec, les choses se passent mal et vous perdez tous les b&eacute;n&eacute;fices de cette action.</p>",
@@ -585,7 +585,7 @@
         "description": "<p>Lorsque <strong>vous ccherchez &agrave; r&eacute;pondre &agrave; une question, &agrave; d&eacute;couvrir des d&eacute;tails sur le monde, &agrave; d&eacute;terminer comment les autres personnages r&eacute;pondent, ou &agrave; d&eacute;clencher des confrontations et des &eacute;v&eacute;nements</strong>, vous pouvez&hellip;</p> <ul> <li>Tirer une conclusion : D&eacute;cidez d&rsquo;une r&eacute;ponse en vous basant sur le r&eacute;sultat le plus int&eacute;ressant et &eacute;vident.</li> <li>Poser une question dont la r&eacute;ponse est oui ou non : D&eacute;cidez des probabilit&eacute;s d&rsquo;obtenir un &laquo; oui &raquo;, puis faites un jet dans le tableau ci-dessous pour d&eacute;terminer la r&eacute;ponse.</li> <li>Retenez-en deux : Visualisez deux options. Qualifiez l&rsquo;une d&rsquo;elle de &laquo; probable &raquo; puis faites un jet dans le tableau ci-dessous pour voir si elle s&rsquo;av&egrave;re v&eacute;ridique. Dans le cas contraire, appliquez l&rsquo;autre option.</li> <li>Trouver une id&eacute;e : Faites un tour de table pour trouver de nou-velles id&eacute;es ou utilisez une incitation au hasard.</li> </ul> <table> <thead> <tr> <th>Probabilit&eacute;s</th> <th>La r&eacute;ponse est &laquo; oui &raquo;<br />si vous obtenez...</th> </tr> </thead> <tbody> <tr> <td>Presque Certain</td> <td style=\"text-align: center;\">11 ou plus</td> </tr> <tr> <td>Probl&egrave;me</td> <td style=\"text-align: center;\">26 ou plus</td> </tr> <tr> <td>50/50</td> <td style=\"text-align: center;\">51 ou plus</td> </tr> <tr> <td>Improbable</td> <td style=\"text-align: center;\">76 ou plus</td> </tr> <tr> <td>Chance Infime</td> <td style=\"text-align: center;\">91 ou plus</td> </tr> </tbody> </table>"
       },
       "Discover a Site": {
-        "title": "Discover a Site",
+        "title": "Découvrir un Site",
         "description": "<p>When <strong>you resolve to enter a perilous site in pursuit of an objective</strong>, choose the theme and domain which best represent its nature (<em>Ask the Oracle</em> if unsure), and give it a rank.</p><ul><li>Troublesome site: 3 progress per area.</li><li>Dangerous site: 2 progress per area.</li><li>Formidable site: 1 progress per area.</li><li>Extreme site: 2 ticks per area.</li><li>Epic site: 1 tick per area.</li></ul><p>If you are returning to a previously explored site, roll both challenge dice, take the lowest value, and clear that number of progress boxes.</p><p>Then, <strong>Delve the Depths</strong> to explore this place.</p>"
       },
       "Delve the Depths": {
@@ -1278,6 +1278,6 @@
     "TypeMove": "(Type d'action déprécié)",
     "TypeSfmove": "Action",
     "TypeDelve-theme": "Delve site theme",
-    "TypeDelve-domain": "Delve site domain"
+    "TypeDelve-domain": "Delve site domain"					   
   }
 }
